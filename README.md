@@ -1,2 +1,2 @@
-# landing-page-odin
-2nd project on The Odin Project's Fundamentals
+# Landing Page Project
+this project is a challenge from The Odin Project's assignments on the fundamentals course (i's not responsive)

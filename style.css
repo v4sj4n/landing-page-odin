@@ -1,0 +1,182 @@
+@import url(https://use.typekit.net/lex1emg.css);
+header > nav,
+main {
+  background-color: var(--primary-background-color);
+  display: flex;
+}
+:root {
+  box-sizing: border-box;
+  font-family: pt-sans, sans-serif;
+  background-color: #fff;
+  --primary-background-color: #1f2937;
+  --button-color: #3882f6;
+  --header-logo-text: #f9faf8;
+  --header-link-text: #e5e7eb;
+  --hero-main-text: #f9faf8;
+  --quote-background-color: #e5e7eb;
+  --quote-text-color: #1f2937;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+header > nav {
+  align-items: center;
+  color: var(--primary-text-color);
+  justify-content: space-between;
+}
+nav > h1 {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0;
+  margin: 0 10%;
+  color: var(--header-logo-text);
+}
+.right-part > ul {
+  display: flex;
+  flex-direction: row;
+}
+.right-part {
+  margin-right: 10%;
+}
+nav > div > ul > li {
+  list-style-type: none;
+  font-size: 1.125rem;
+  padding: 1rem;
+}
+.right-part > ul > li > a {
+  text-decoration: none;
+  color: var(--header-link-text);
+}
+main {
+  align-items: center;
+  padding: 6rem 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main-text > * {
+  padding: 0;
+  margin: 0 16%;
+}
+.main-text > h1 {
+  margin-top: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--hero-main-text);
+  display: inline-block;
+}
+.main-text > p {
+  font-size: 1.25rem;
+  color: var(--header-link-text);
+  display: inline-block;
+}
+.main-text > button {
+  display: block;
+  background-color: var(--button-color);
+  color: var(--header-link-text);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border-width: 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.main-image > img {
+  width: 305px;
+  border-radius: 10px;
+}
+.main-image {
+  margin-right: 7rem;
+}
+.below-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem auto;
+}
+.below-hero > h2 {
+  font-size: 2.5rem;
+  margin-top: 1.4rem;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1em;
+}
+.container-item > p {
+  font-size: 0.75rem;
+}
+.container-item-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container-item-image > img {
+  height: 200px;
+  object-fit: cover;
+}
+.third-section {
+  background-color: var(--quote-background-color);
+  color: var(--quote-text-color);
+  padding: 10rem;
+}
+.third-section > p {
+  font-size: 2.25rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.third-section > h2 {
+  text-align: right;
+}
+
+.cta{
+    background-color: var(--button-color);
+    margin: 3rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-left{
+    color: var(--header-link-text);
+    margin: 2rem 0;
+}
+.cta-left > *{
+    margin: 0;
+
+}
+
+.cta-left > h2{
+    font-weight: 700;
+}
+
+.cta-right > button{
+    all: unset;
+    border: #fff 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: var(--button-color);
+    color: var(--header-link-text);
+    font-weight: 700;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--primary-background-color);
+    color: var(--header-link-text);
+    padding: 1.5rem;
+}
+footer > p{
+    margin: 0;
+}
